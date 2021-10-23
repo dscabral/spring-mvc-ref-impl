@@ -1,11 +1,10 @@
 package com.example.h2example.service;
 
-import com.example.h2example.cache.IGenericCache;
 import com.example.h2example.cache.impl.GenericCache;
 import com.example.h2example.model.Tutorial;
 import com.example.h2example.repository.TutorialRepository;
-import exception.BusinessException;
-import exception.TutorialNotFoundException;
+import com.example.h2example.exception.BusinessException;
+import com.example.h2example.exception.TutorialNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

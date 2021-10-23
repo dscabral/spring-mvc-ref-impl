@@ -1,8 +1,8 @@
 package com.example.h2example.handler;
 
 import com.example.h2example.model.ExceptionResponse;
-import exception.BusinessException;
-import exception.TutorialNotFoundException;
+import com.example.h2example.exception.BusinessException;
+import com.example.h2example.exception.TutorialNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
